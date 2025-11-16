@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国马克思主义与当代 - 2024年版</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                        'serif': ['Noto Serif SC', 'serif'],
+                    },
+                    colors: {
+                        'sage': {
+                            50: '#f6f7f6',
+                            100: '#e3e7e3',
+                            200: '#c7d0c7',
+                            300: '#a3b2a3',
+                            400: '#7a927a',
+                            500: '#5c755c',
+                            600: '#495d49',
+                            700: '#3d4d3d',
+                            800: '#344134',
+                            900: '#2d372d',
+                        },
+                        'charcoal': {
+                            50: '#f6f6f6',
+                            100: '#e7e7e7',
+                            200: '#d1d1d1',
+                            300: '#b0b0b0',
+                            400: '#888888',
+                            500: '#6d6d6d',
+                            600: '#5d5d5d',
+                            700: '#4f4f4f',
+                            800: '#454545',
+                            900: '#3d3d3d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #5c755c, #3d4d3d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, #f6f7f6 0%, #e3e7e3 100%);
+        }
+    </style>
+</head>
+<body class="bg-sage-50 text-charcoal-800 font-sans leading-relaxed">
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b border-sage-200 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-sage-600 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-book-open text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-serif font-semibold text-charcoal-800">中国马克思主义与当代</h1>
+                        <p class="text-sm text-charcoal-600">2024年版 · 博士研究生思想政治理论课教材</p>
+                    </div>
+                </div>
+                <div class="text-sm text-charcoal-500">
+                    马克思主义理论研究和建设工程重点教材
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg py-20">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-6xl font-serif font-bold gradient-text mb-6">中国马克思主义与当代</h1>
+                <h2 class="text-3xl font-serif font-medium text-charcoal-700 mb-8">2024年版</h2>
+                <div class="bg-white rounded-2xl shadow-lg p-8 border border-sage-200 mb-8">
+                    <p class="text-xl text-charcoal-700 leading-relaxed mb-4">
+                        博士研究生思想政治理论课教材
+                    </p>
+                    <p class="text-lg text-charcoal-600">
+                        马克思主义理论研究和建设工程重点教材
+                    </p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="introduction.html" class="inline-flex items-center px-8 py-4 bg-sage-600 text-white rounded-xl hover:bg-sage-700 transition-colors text-lg font-medium">
+                        <i class="fas fa-play mr-3"></i>
+                        开始学习
+                    </a>
+                    <a href="#contents" class="inline-flex items-center px-8 py-4 bg-charcoal-600 text-white rounded-xl hover:bg-charcoal-700 transition-colors text-lg font-medium">
+                        <i class="fas fa-list mr-3"></i>
+                        目录导航
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Overview -->
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="bg-white rounded-2xl shadow-lg p-8 border border-sage-200">
+                <h3 class="text-3xl font-serif font-semibold text-charcoal-800 mb-6 text-center flex items-center justify-center">
+                    <i class="fas fa-info-circle text-sage-600 mr-3"></i>
+                    教材概览
+                </h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="text-xl font-semibold text-charcoal-800 mb-4">教材定位</h4>
+                        <p class="text-charcoal-600 leading-relaxed mb-4">
+                            本教材是马克思主义理论研究和建设工程重点教材，主要面向博士研究生思想政治理论课教学。
+                            系统阐述当代中国马克思主义的基本原理和当代世界发展大势。
+                        </p>
+                        <p class="text-charcoal-600 leading-relaxed">
+                            教材界定的"当代"主要是指21世纪以来特别是党的十八大以来的时期，
+                            深入分析当今世界百年未有之大变局和中华民族伟大复兴战略全局。
+                        </p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-semibold text-charcoal-800 mb-4">学习目标</h4>
+                        <ul class="text-charcoal-600 leading-relaxed space-y-2">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-sage-600 mr-2"></i>
+                                掌握马克思主义立场观点方法分析当代世界
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-sage-600 mr-2"></i>
+                                认清世界大势，把握时代潮流
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-sage-600 mr-2"></i>
+                                理解中国特色社会主义的世界意义
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-sage-600 mr-2"></i>
+                                坚定共产主义理想信念
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table of Contents -->
+    <section id="contents" class="py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="bg-white rounded-2xl shadow-lg p-8 border border-sage-200">
+                <h3 class="text-3xl font-serif font-semibold text-charcoal-800 mb-8 text-center flex items-center justify-center">
+                    <i class="fas fa-list text-sage-600 mr-3"></i>
+                    目录
+                </h3>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Left Column -->
+                    <div class="space-y-6">
+                        <div class="bg-sage-50 rounded-xl p-6 border border-sage-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 bg-sage-600 rounded-lg flex items-center justify-center mr-4">
+                                    <span class="text-white font-bold text-lg">导</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-charcoal-800">导论</h4>
+                                    <p class="text-sm text-charcoal-600">"两个大局"同步交织的中国与世界</p>
+                                </div>
+                            </div>
+                            <p class="text-charcoal-600 text-sm leading-relaxed mb-4">
+                                深入把握当代中国与世界关系的基本面，准确把握历史发展趋势和时代脉搏，
+                                展现中国之治与西方之乱的鲜明对比。
+                            </p>
+                            <a href="introduction.html" class="inline-flex items-center px-4 py-2 bg-sage-600 text-white rounded-lg hover:bg-sage-700 transition-colors text-sm">
+                                <i class="fas fa-arrow-right mr-2"></i>
+                                开始学习
+                            </a>
+                        </div>
+                        
+                        <div class="bg-sage-50 rounded-xl p-6 border border-sage-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 bg-sage-600 rounded-lg flex items-center justify-center mr-4">
+                                    <span class="text-white font-bold text-lg">1</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-charcoal-800">第一章</h4>
+                                    <p class="text-sm text-charcoal-600">当代世界经济</p>
+                                </div>
+                            </div>
+                            <p class="text-charcoal-600 text-sm leading-relaxed mb-4">
+                                经济全球化进程中的当代世界经济，引领经济全球化健康发展，
+                                中国成为世界经济发展的主要引擎。
+                            </p>
+                            <a href="chapter1.html" class="inline-flex items-center px-4 py-2 bg-sage-600 text-white rounded-lg hover:bg-sage-700 transition-colors text-sm">
+                                <i class="fas fa-arrow-right mr-2"></i>
+                                进入章节
+                            </a>
+                        </div>
+                        
+                        <div class="bg-sage-50 rounded-xl p-6 border border-sage-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 bg-sage-600 rounded-lg flex items-center justify-center mr-4">
+                                    <span class="text-white font-bold text-lg">2</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-charcoal-800">第二章</h4>
+                                    <p class="text-sm text-charcoal-600">当代世界政治</p>
+                                </div>
+                            </div>
+                            <p class="text-charcoal-600 text-sm leading-relaxed mb-4">
+                                百年变局中的当代世界政治，国际政治秩序的变革完善，
+                                中国特色社会主义政治及对世界的贡献。
+                            </p>
+                            <a href="chapter2.html" class="inline-flex items-center px-4 py-2 bg-sage-600 text-white rounded-lg hover:bg-sage-700 transition-colors text-sm">
+                                <i class="fas fa-arrow-right mr-2"></i>
+                                进入章节
+                            </a>
+                        </div>
+                        
+                        <div class="bg-sage-50 rounded-xl p-6 border border-sage-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 bg-sage-600 rounded-lg flex items-center justify-center mr-4">
+                                    <span class="text-white font-bold text-lg">3</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-charcoal-800">第三章</h4>
+                                    <p class="text-sm text-charcoal-600">当代世界文化</p>
+                                </div>
+                            </div>
+                            <p class="text-charcoal-600 text-sm leading-relaxed mb-4">
+                                当代世界文化的发展趋势，社会思潮中的文化渗透与思想引领，
+                                建设社会主义文化强国。
+                            </p>
+                            <a href="chapter3.html" class="inline-flex items-center px-4 py-2 bg-sage-600 text-white rounded-lg hover:bg-sage-700 transition-colors text-sm">
+                                <i class="fas fa-arrow-right mr-2"></i>
+                                进入章节
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Column -->
+                    <div class="space-y-6">
+                        <div class="bg-sage-50 rounded-xl p-6 border border-sage-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 bg-sage-600 rounded-lg flex items-center justify-center mr-4">
+                                    <span class="text-white font-bold text-lg">4</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-charcoal-800">第四章</h4>
+                                    <p class="text-sm text-charcoal-600">当代社会问题</p>
+                                </div>
+                            </div>
+                            <p class="text-charcoal-600 text-sm leading-relaxed mb-4">
+                                当代社会问题及原因分析，当代社会治理的探索，
+                                社会治理创新的中国方案。
+                            </p>
+                            <a href="chapter4.html" class="inline-flex items-center px-4 py-2 bg-sage-600 text-white rounded-lg hover:bg-sage-700 transition-colors text-sm">
+                                <i class="fas fa-arrow-right mr-2"></i>
+                                进入章节
+                            </a>
+                        </div>
+                        
+                        <div class="bg-sage-50 rounded-xl p-6 border border-sage-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 bg-sage-600 rounded-lg flex items-center justify-center mr-4">
+                                    <span class="text-white font-bold text-lg">5</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-charcoal-800">第五章</h4>
+                                    <p class="text-sm text-charcoal-600">当代生态环境</p>
+                                </div>
+                            </div>
+                            <p class="text-charcoal-600 text-sm leading-relaxed mb-4">
+                                人类面临的共同挑战，人类共同的时代责任，
+                                美丽中国建设对世界的贡献。
+                            </p>
+                            <a href="chapter5.html" class="inline-flex items-center px-4 py-2 bg-sage-600 text-white rounded-lg hover:bg-sage-700 transition-colors text-sm">
+                                <i class="fas fa-arrow-right mr-2"></i>
+                                进入章节
+                            </a>
+                        </div>
+                        
+                        <div class="bg-sage-50 rounded-xl p-6 border border-sage-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 bg-sage-600 rounded-lg flex items-center justify-center mr-4">
+                                    <span class="text-white font-bold text-lg">6</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-charcoal-800">第六章</h4>
+                                    <p class="text-sm text-charcoal-600">当代科学技术</p>
+                                </div>
+                            </div>
+                            <p class="text-charcoal-600 text-sm leading-relaxed mb-4">
+                                当代科技发展，新一轮科技革命深入发展，
+                                建设世界科技强国。
+                            </p>
+                            <a href="chapter6.html" class="inline-flex items-center px-4 py-2 bg-sage-600 text-white rounded-lg hover:bg-sage-700 transition-colors text-sm">
+                                <i class="fas fa-arrow-right mr-2"></i>
+                                进入章节
+                            </a>
+                        </div>
+                        
+                        <div class="bg-sage-50 rounded-xl p-6 border border-sage-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 bg-sage-600 rounded-lg flex items-center justify-center mr-4">
+                                    <span class="text-white font-bold text-lg">7</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-charcoal-800">第七章</h4>
+                                    <p class="text-sm text-charcoal-600">当代资本主义</p>
+                                </div>
+                            </div>
+                            <p class="text-charcoal-600 text-sm leading-relaxed mb-4">
+                                百年变局中的当代资本主义，系统性困境及其成因，
+                                当代资本主义的演变趋势。
+                            </p>
+                            <a href="chapter7.html" class="inline-flex items-center px-4 py-2 bg-sage-600 text-white rounded-lg hover:bg-sage-700 transition-colors text-sm">
+                                <i class="fas fa-arrow-right mr-2"></i>
+                                进入章节
+                            </a>
+                        </div>
+                        
+                        <div class="bg-sage-50 rounded-xl p-6 border border-sage-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 bg-sage-600 rounded-lg flex items-center justify-center mr-4">
+                                    <span class="text-white font-bold text-lg">8</span>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-charcoal-800">第八章</h4>
+                                    <p class="text-sm text-charcoal-600">当代社会主义</p>
+                                </div>
+                            </div>
+                            <p class="text-charcoal-600 text-sm leading-relaxed mb-4">
+                                世界社会主义在探索中前进，社会主义好的中国证明，
+                                共产主义是人类的美好未来。
+                            </p>
+                            <a href="chapter8.html" class="inline-flex items-center px-4 py-2 bg-sage-600 text-white rounded-lg hover:bg-sage-700 transition-colors text-sm">
+                                <i class="fas fa-arrow-right mr-2"></i>
+                                进入章节
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Guide -->
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="bg-white rounded-2xl shadow-lg p-8 border border-sage-200">
+                <h3 class="text-3xl font-serif font-semibold text-charcoal-800 mb-8 text-center flex items-center justify-center">
+                    <i class="fas fa-compass text-sage-600 mr-3"></i>
+                    学习指南
+                </h3>
+                
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-sage-50 rounded-xl p-6 border border-sage-200 text-center">
+                        <div class="w-16 h-16 bg-sage-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-eye text-white text-2xl"></i>
+                        </div>
+                        <h4 class="text-lg font-semibold text-charcoal-800 mb-3">树立大历史观</h4>
+                        <p class="text-charcoal-600 text-sm leading-relaxed">
+                            从历史长河、时代大潮、全球风云中分析演变机理，探究历史规律，
+                            提出因应的战略策略。
+                        </p>
+                    </div>
+                    
+                    <div class="bg-sage-50 rounded-xl p-6 border border-sage-200 text-center">
+                        <div class="w-16 h-16 bg-sage-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-balance-scale text-white text-2xl"></i>
+                        </div>
+                        <h4 class="text-lg font-semibold text-charcoal-800 mb-3">坚持辩证思维</h4>
+                        <p class="text-charcoal-600 text-sm leading-relaxed">
+                            正确认识和处理变与不变的辩证关系，在危机中育先机，
+                            于变局中开新局。
+                        </p>
+                    </div>
+                    
+                    <div class="bg-sage-50 rounded-xl p-6 border border-sage-200 text-center">
+                        <div class="w-16 h-16 bg-sage-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-globe text-white text-2xl"></i>
+                        </div>
+                        <h4 class="text-lg font-semibold text-charcoal-800 mb-3">把握世界大势</h4>
+                        <p class="text-charcoal-600 text-sm leading-relaxed">
+                            认清和平与发展的时代主题，理解世界多极化、经济全球化、
+                            文明多样化的大趋势。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-charcoal-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <div class="mb-6">
+                <h3 class="text-2xl font-serif font-semibold mb-2">中国马克思主义与当代</h3>
+                <p class="text-charcoal-300">2024年版 · 博士研究生思想政治理论课教材</p>
+            </div>
+            <div class="mb-6">
+                <p class="text-charcoal-300">
+                    马克思主义理论研究和建设工程重点教材
+                </p>
+                <p class="text-charcoal-400 text-sm mt-2">
+                    本书编写组 编
+                </p>
+            </div>
+            <div class="border-t border-charcoal-700 pt-6">
+                <p class="text-charcoal-400 text-sm">
+                    © 2024 高等教育出版社 · 马克思主义理论研究和建设工程重点教材
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
